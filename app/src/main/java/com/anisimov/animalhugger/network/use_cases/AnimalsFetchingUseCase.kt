@@ -21,6 +21,7 @@ class AnimalsFetchingUseCase(
                                 id = specimen.id,
                                 name = specimen.name,
                                 description = specimen.description,
+                                imageUrl = specimen.image_url,
                             )
                         }
                     )

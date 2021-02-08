@@ -7,4 +7,5 @@ data class AnimalResponse(
     val id: Int,
     val name: String,
     val description: String,
+    val image_url: String,
 )
